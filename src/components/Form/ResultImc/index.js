@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text } from 'react-native'
 import styles from './style'
 
-export default function ResultImc(props) {
+const ResultImc = (props) => {
   return (
     <View style={styles.resultImc}>
       <Text style={styles.information}>
@@ -14,3 +14,5 @@ export default function ResultImc(props) {
     </View>
   )
 }
+
+export default ResultImc

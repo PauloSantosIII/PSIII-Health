@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import { View, Text, TextInput, TouchableOpacity } from 'react-native'
+import { View, Text, TextInput, TouchableOpacity, Vibration } from 'react-native'
 import ResultImc from './ResultImc'
 import styles from './style'
 
-export default function Form() {
+const Form = () => {
 
   const [height, setHeight] = useState(null)
   const [weight, setWeight] = useState(null)
@@ -33,7 +33,8 @@ export default function Form() {
   }
 
   const verificationImc = () => {
-    if (imc === null) {
+    if (imc === null) {git remote add origin git@github.com:PauloSantosIII/PSIII-Health.git
+      Vibration.vibrate()
       setErrorMessage('campo obrigatório')
     }
   }
@@ -74,3 +75,5 @@ export default function Form() {
     </View>
   )
 }
+
+export default Form
