@@ -33,7 +33,7 @@ const Form = () => {
   }
 
   const verificationImc = () => {
-    if (imc === null) {git remote add origin git@github.com:PauloSantosIII/PSIII-Health.git
+    if (imc === null) {
       Vibration.vibrate()
       setErrorMessage('campo obrigatório')
     }

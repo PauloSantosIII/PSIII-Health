@@ -36,16 +36,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width: '80%',
-    backgroundColor: '#61dafb',
+    backgroundColor: '#333',
     paddingTop: 14,
     paddingBottom: 14,
     marginLeft: '10%',
-    margin: 12,
+    marginTop: 12,
   },
   textButtonCalculator: {
     fontWeight: 'bold',
     fontSize: 20,
-    color: '#333'
+    color: '#61dafb'
   },
   textError: {
     fontSize: 12,
